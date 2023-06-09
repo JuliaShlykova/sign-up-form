@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Sign-up</title>
+</head>
+<body>
+  <sidebar class="img-container">
+    <div class="logo-container">
+      <img src="./odin-lined.png" />
+      <span>ODIN</span>
+    </div>
+    <span>Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a> </span>
+  </sidebar>
+  <main>
+    <form action="">
+      <div class="form-content">
+        <h1>Let's do this!</h1>
+        <ul>
+          <li>
+            <label for="first-name">first name</label>
+            <input type="text" id="first-name" >
+            <span class="error"></span>
+          </li>
+          <li>
+            <label for="last-name">last name</label>
+            <input type="text" id="last-name" >
+            <span class="error"></span>
+          </li>
+          <li>
+            <label for="email">email</label>
+            <input type="email" id="email" >
+            <span class="error"></span>
+          </li>
+          <li>
+            <label for="phone-number">phone number</label>
+            <input type="tel" id="phone-number" pattern="[0-9]+" >
+            <span class="error"></span>
+          </li>
+          <li>
+            <label for="password">password</label>
+            <input type="password" id="password" >
+            <span class="error"></span>
+          </li>
+          <li>
+            <label for="confirm-password">confirm password</label>
+            <input type="password" id="confirm-password" >
+            <span class="error"></span>
+          </li>
+        </ul>
+      </div>
+      <button type="submit">Create Account</button>
+    </form>
+    <strong>Aready have an account? <a href="">Log in</a> </strong>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
